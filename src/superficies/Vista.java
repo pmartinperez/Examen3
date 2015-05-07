@@ -50,4 +50,20 @@ public class Vista {
             circle1.setRadius(sc.nextFloat());
         }
     }
+    
+    public void visualizarRectangle(Rectangle rectangle){
+        System.out.println("The area for your rectangle: " + rectangle.getRectangleArea());
+    }
+    
+    public void visualizarSquare(Square square){
+        System.out.println("The area for your square: " + square.getSquareArea());
+    }
+    
+    public void visualizarTriangle(Triangle triangle){
+        System.out.println("Your triangles area is: " + triangle.getTriangleArea());
+    }
+    
+    public void visualizarCircle(Circle circle){
+        System.out.println("Your Circles area is " + circle.getCircleArea());
+    }
 }
