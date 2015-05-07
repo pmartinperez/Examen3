@@ -76,4 +76,29 @@ public class Superficies {
         }
 
     }
+    
+    public static void calcularAreaSquare(Square square){
+        //squareArea = sideLength * sideLength;
+        square.setSquareArea(square.getSideLength()*square.getSideLength());
+    }
+    
+    public static void calcularAreaRectangle(Rectangle rectangle){
+        //rectangleArea = sideLength * sideHeight;
+        rectangle.setRectangleArea(rectangle.getSideLength()*rectangle.getSideHeight());
+        
+    }
+    
+    public static void calcularAreaTriangulo(Triangle triangle){
+        //triangleArea = (float) (0.5 * baseLength * height);
+        triangle.setTriangleArea((float) (0.5 * triangle.getBaseLength()* triangle.getHeight()));
+        
+    }
+    
+    public static void calcularAreaCirculo(Circle circle){
+        //circleArea = radius * radius;
+        //circleArea = (float) (3.14159265 * circleArea);
+        circle.setCircleArea((float) (3.14159265 *(circle.getRadius()*circle.getRadius())));
+        
+    }
+    
 }
