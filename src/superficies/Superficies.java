@@ -15,6 +15,9 @@ public class Superficies {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        
+        /*
         String shapeType;
 
         sc = new Scanner(System.in);
@@ -73,7 +76,7 @@ public class Superficies {
             circleArea = (float) (3.14159265 * circleArea);
             System.out.println("Your Circles area is " + circleArea);
 
-        }
+        }*/
 
     }
     
