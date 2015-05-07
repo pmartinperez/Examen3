@@ -27,26 +27,27 @@ public class Vista {
         if (shapeType.equals("square")) {
             Square square1 = new Square();
             introducirDatosSquare(square1);
+            Superficies.calcularAreaSquare(square1);
+            this.visualizarSquare(square1);
 
         }
         if (shapeType.equals("rectangle")) {
             Rectangle rectangle1 = new Rectangle();
-            System.out.println("what is the rectangles width?");
-            rectangle1.setSideLength(sc.nextFloat());
-            System.out.println("What is the rectangles height?");
-            rectangle1.setSideHeight(sc.nextFloat());
+            introducirDatosRectangle(rectangle1);
+            Superficies.calcularAreaRectangle(rectangle1);
+            this.visualizarRectangle(rectangle1);
         }
         if (shapeType.equals("triangle")) {
             Triangle triangle1 = new Triangle();
-            System.out.println("What is the base length of the triangle?");
-            triangle1.setBaseLength(sc.nextFloat());
-            System.out.println("What is the height of the triangle?");
-            triangle1.setHeight(sc.nextFloat());
+            introducirDatosTriangle(triangle1);
+            Superficies.calcularAreaTriangle(triangle1);
+            this.visualizarTriangle(triangle1);
         }
         if (shapeType.equals("circle")) {
             Circle circle1 = new Circle();
-            System.out.println("What is the radius of the circle?");
-            circle1.setRadius(sc.nextFloat());
+            introducirDatosCircle(circle1);
+            Superficies.calcularAreaCircle(circle1);
+            this.visualizarCircle(circle1);
         }
     }
 
