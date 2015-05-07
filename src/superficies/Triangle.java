@@ -1,21 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package superficies;
 
 /**
+ * Clase con los atributos propios de un triangulo, setters y getters.
  *
  * @author Patripon
  */
 public class Triangle {
+
     private float baseLength;
     private float height;
     private float triangleArea;
-    
-    public Triangle(){
-        
+
+    public Triangle() {
+
     }
 
     public float getBaseLength() {
@@ -41,6 +38,5 @@ public class Triangle {
     public void setTriangleArea(float triangleArea) {
         this.triangleArea = triangleArea;
     }
-    
-    
+
 }

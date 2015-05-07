@@ -1,20 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package superficies;
 
 /**
+ * Clase con los atributos propios de un circulo, setters y getters.
  *
  * @author Patripon
  */
 public class Circle {
+
     private float radius;
     private float circleArea;
-    
-    public Circle(){
-        
+
+    public Circle() {
+
     }
 
     public float getRadius() {
@@ -32,6 +29,5 @@ public class Circle {
     public void setCircleArea(float circleArea) {
         this.circleArea = circleArea;
     }
-    
-    
+
 }

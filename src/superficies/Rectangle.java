@@ -1,21 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package superficies;
 
 /**
+ * Clase con los atributos propios de un rectangulo, setters y getters.
  *
  * @author Patripon
  */
 public class Rectangle {
+
     private float sideLength;
     private float sideHeight;
     private float rectangleArea;
-    
-    public Rectangle(){
-        
+
+    public Rectangle() {
+
     }
 
     public float getSideLength() {
@@ -41,6 +38,5 @@ public class Rectangle {
     public void setRectangleArea(float rectangleArea) {
         this.rectangleArea = rectangleArea;
     }
-    
-    
+
 }

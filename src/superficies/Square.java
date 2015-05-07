@@ -1,20 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package superficies;
 
 /**
+ * Clase con los atributos propios de un cuadrado, setters y getters.
  *
  * @author Patripon
  */
 public class Square {
+
     private float squareArea;
     private float sideLength;
-    
-    public Square(){
-        
+
+    public Square() {
+
     }
 
     public float getSquareArea() {
@@ -32,6 +29,5 @@ public class Square {
     public void setSideLength(float sideLength) {
         this.sideLength = sideLength;
     }
-    
-    
+
 }
